@@ -17,6 +17,7 @@ public class Hello extends HttpServlet {
 		
 		
 		response.getWriter().print("Sina lisa siia rida success!");
+		response.getWriter().print("Sina lisa siia rida success!");
 		
 	}
 
