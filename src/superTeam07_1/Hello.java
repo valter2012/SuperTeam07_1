@@ -16,7 +16,11 @@ public class Hello extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		
-		response.getWriter().print("Sina lisa siia rida success!");
+		response.getWriter().print("Sina lisa siia rida success! ");
+		
+		
+		
+		response.getWriter().print("Sina lisa siia rida TEINE success! ");
 		
 		
 	}
